@@ -9,7 +9,7 @@ public class LibraryManagement {
         ArrayList<String> books = new ArrayList<>();
         LinkedList<String> issuedBooks = new LinkedList<>();
 
-        // Adding books to the library
+    
         books.add("Java Programming");
         books.add("Python Basics");
         books.add("Data Structures");
@@ -27,7 +27,7 @@ public class LibraryManagement {
             System.out.print("Enter your choice: ");
 
             int choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
 
             switch (choice) {
 
